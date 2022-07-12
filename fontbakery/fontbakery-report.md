@@ -2,19 +2,10 @@
 
 Fontbakery version: 0.8.9
 
-<details><summary><b>[16] BlackOpsOne-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[14] BlackOpsOne-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
-
-
-* 🔥 **FAIL** Version number 1.0030059814453125 is equal to version on Google Fonts.
-* 🔥 **FAIL** Version number 1.0030059814453125 is equal to version on Google Fonts GitHub repo.
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 2232, but got 1871 instead [code: ascent]
 </div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
@@ -27,16 +18,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* lcaron
+	* parenright
+	* zdotaccent
+	* uni1E6B
+	* aogonek
+	* eogonek
+	* Zdotaccent
 	* Aring
-	* Aogonek
-	* uni1E61
-	* Eogonek
-	* uni1E0B
-	* dotaccent
-	* bracketright
-	* Idotaccent
-	* umacron and 44 more.
+	* lslash
+	* backslash
+	* imacron and 44 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -60,15 +51,11 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- CR
+	- .null
 
-	- IJ_acutecomb
+	- uniF8FF 
 
-	- uniF8FF
-
-	- ij_acutecomb 
-
-	- And .null
+	- And CR
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -111,27 +98,27 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* percent (U+0025): X=364.0,Y=1329.0 (should be at cap-height 1327?)
-
-	* percent (U+0025): X=561.0,Y=1329.0 (should be at cap-height 1327?)
-
-	* percent (U+0025): X=631.0,Y=1329.0 (should be at cap-height 1327?)
-
-	* percent (U+0025): X=829.0,Y=1329.0 (should be at cap-height 1327?)
-
 	* eight (U+0038): X=1168.0,Y=-1.0 (should be at baseline 0?)
 
-	* eight (U+0038): X=1168.0,Y=1326.0 (should be at cap-height 1327?)
+	* s (U+0073): X=279.0,Y=1.0 (should be at baseline 0?)
 
-	* K (U+004B): X=937.0,Y=1326.0 (should be at cap-height 1327?)
+	* w (U+0077): X=737.0,Y=-1.0 (should be at baseline 0?)
 
-	* k (U+006B): X=819.0,Y=1060.0 (should be at x-height 1062?)
+	* sacute (U+015B): X=279.0,Y=1.0 (should be at baseline 0?)
 
-	* k (U+006B): X=1276.0,Y=1061.0 (should be at x-height 1062?)
+	* scircumflex (U+015D): X=279.0,Y=1.0 (should be at baseline 0?)
 
-	* s (U+0073): X=279.0,Y=1.0 (should be at baseline 0?) 
+	* scedilla (U+015F): X=279.0,Y=1.0 (should be at baseline 0?)
 
-	* And 62 more.
+	* scaron (U+0161): X=279.0,Y=1.0 (should be at baseline 0?)
+
+	* wcircumflex (U+0175): X=737.0,Y=-1.0 (should be at baseline 0?)
+
+	* uni0219 (U+0219): X=279.0,Y=1.0 (should be at baseline 0?)
+
+	* uni1E4C (U+1E4C): X=572.0,Y=1869.0 (should be at ascender 1871?) 
+
+	* And 23 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -143,25 +130,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* w (U+0077) contains a short segment L<<737.0,-1.0>--<736.0,0.0>>
 
-	* oslash (U+00F8) contains a short segment L<<569.0,265.0>--<569.0,264.0>>
-
 	* wcircumflex (U+0175) contains a short segment L<<737.0,-1.0>--<736.0,0.0>>
-
-	* Ohorn (U+01A0) contains a short segment L<<1108.0,1327.0>--<1110.0,1325.0>>
-
-	* ohorn (U+01A1) contains a short segment L<<1023.0,1062.0>--<1025.0,1060.0>>
-
-	* uhorn (U+01B0) contains a short segment L<<1246.0,1062.0>--<1246.0,1060.0>>
-
-	* oslashacute (U+01FF) contains a short segment L<<569.0,265.0>--<569.0,264.0>>
 
 	* wgrave (U+1E81) contains a short segment L<<737.0,-1.0>--<736.0,0.0>>
 
-	* wacute (U+1E83) contains a short segment L<<737.0,-1.0>--<736.0,0.0>> 
+	* wacute (U+1E83) contains a short segment L<<737.0,-1.0>--<736.0,0.0>>
 
-	* And 22 more.
+	* wdieresis (U+1E85) contains a short segment L<<737.0,-1.0>--<736.0,0.0>>
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+	* dagger (U+2020) contains a short segment L<<557.0,429.0>--<556.0,429.0>>
+
+	* dagger (U+2020) contains a short segment L<<948.0,431.0>--<950.0,430.0>>
+
+	* colonmonetary (U+20A1) contains a short segment L<<1076.0,1327.0>--<1080.0,1327.0>>
+
+	* colonmonetary (U+20A1) contains a short segment L<<1080.0,0.0>--<1076.0,0.0>>
+
+	* uni20B9 (U+20B9) contains a short segment L<<490.0,298.0>--<486.0,298.0>> 
+
+	* And fl (U+FB02) contains a short segment L<<1455.0,1202.0>--<1453.0,1202.0>> [code: found-short-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -177,8 +164,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 	* IJ (U+0132): L<<117.0,0.0>--<119.0,265.0>>
 
-	* K (U+004B): L<<937.0,1326.0>--<1397.0,1327.0>>
-
 	* Oslash (U+00D8): L<<715.0,264.0>--<927.0,265.0>>
 
 	* Oslashacute (U+01FE): L<<715.0,264.0>--<927.0,265.0>>
@@ -191,11 +176,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-short-s
 
 	* eight (U+0038): L<<1168.0,-1.0>--<808.0,0.0>>
 
-	* eight (U+0038): L<<808.0,1327.0>--<1168.0,1326.0>>
+	* eth (U+00F0): L<<1245.0,966.0>--<1248.0,265.0>>
 
-	* eth (U+00F0): L<<1245.0,966.0>--<1248.0,265.0>> 
+	* lira (U+20A4): L<<230.0,265.0>--<407.0,264.0>>
 
-	* And 25 more.
+	* lira (U+20A4): L<<917.0,265.0>--<1513.0,264.0>> 
+
+	* And 19 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details>
@@ -203,8 +190,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 2 | 13 | 112 | 7 | 100 | 0 |
-| 0% | 1% | 6% | 48% | 3% | 43% | 0% |
+| 1 | 0 | 13 | 112 | 7 | 102 | 0 |
+| 0% | 0% | 6% | 48% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
