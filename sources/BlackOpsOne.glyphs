@@ -152,20 +152,8 @@ $,
 "/ruble",
 "/sheqel"
 );
-copyright = "Copyright (c) 2011-2012, Sorkin Type Co (www.sorkintype.com)with Reserved Font Names \"Black Ops\" and \"Black Ops One\".";
+copyright = "Copyright 2022 The PinyonScript Project Authors (https://github.com/SorkinType/Black-Ops)";
 customParameters = (
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1.";
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
-},
-{
-name = uniqueID;
-value = "JamesGrieshaber: Black Ops One Regular: 2011";
-},
 {
 name = openTypeOS2Panose;
 value = (
@@ -182,13 +170,17 @@ value = (
 );
 },
 {
+name = strikeoutPosition;
+value = 458;
+},
+{
+name = strikeoutSize;
+value = 57;
+},
+{
 name = fsType;
 value = (
 );
-},
-{
-name = vendorID;
-value = STC;
 },
 {
 name = blueFuzz;
@@ -203,15 +195,11 @@ name = blueShift;
 value = 7;
 },
 {
-name = trademark;
-value = "Black Ops is a trademark of Sorkin Type Co.";
-},
-{
-name = "Use Line Breaks";
+name = "Use Extension Kerning";
 value = 1;
 },
 {
-name = "Use Extension Kerning";
+name = "Use Line Breaks";
 value = 1;
 },
 {
@@ -223,18 +211,24 @@ name = "Enforce Compatibility Check";
 value = 1;
 },
 {
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-}
-);
+name = description;
+value = "Black Ops is a low contrast semi geometric typeface inspired by military stencil lettering. Black Ops is heavy, sturdy, and punchy. Because of the small cuts found in stencils like this one, Black Ops will look best when used at medium to large sizes.";
 },
 {
-name = "Axis Mappings";
-value = {
-};
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = vendorID;
+value = STC;
+},
+{
+name = trademark;
+value = "Black Ops is a trademark of Sorkin Type Co.";
 }
 );
 date = "2022-07-12 16:30:38 +0000";
@@ -23088,7 +23082,7 @@ A = -88;
 };
 };
 };
-manufacturer = "James Grieshaber";
+manufacturer = "Sorkin Type Co.";
 manufacturerURL = www.sorkintype.com;
 unitsPerEm = 2048;
 userData = {
