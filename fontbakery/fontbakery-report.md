@@ -18,16 +18,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* parenright
-	* zdotaccent
-	* uni1E6B
-	* aogonek
-	* eogonek
-	* Zdotaccent
-	* Aring
+	* Aogonek
+	* umacron
+	* uni1E57
+	* lacute
+	* emacron
+	* Abreve
+	* gdotaccent
 	* lslash
-	* backslash
-	* imacron and 44 more.
+	* Idotaccent
+	* uni1E03 and 44 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -51,9 +51,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- .null
+	- uniF8FF
 
-	- uniF8FF 
+	- .null 
 
 	- And CR
  [code: unreachable-glyphs]
