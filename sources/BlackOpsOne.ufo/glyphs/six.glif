@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="six" format="1">
+  <advance width="1499"/>
+  <unicode hex="0036"/>
+  <outline>
+    <contour>
+      <point x="550" y="1062" type="line" name="hr01"/>
+      <point x="717" y="1062" type="line"/>
+      <point x="717" y="1327" type="line"/>
+      <point x="374" y="1327" type="line"/>
+      <point x="108" y="1062" type="line"/>
+      <point x="108" y="265" type="line"/>
+      <point x="374" y="0" type="line"/>
+      <point x="717" y="0" type="line"/>
+      <point x="717" y="265" type="line"/>
+      <point x="550" y="265" type="line"/>
+    </contour>
+    <contour>
+      <point x="966" y="576" type="line"/>
+      <point x="966" y="265" type="line"/>
+      <point x="787" y="265" type="line"/>
+      <point x="787" y="0" type="line"/>
+      <point x="1126" y="0" type="line"/>
+      <point x="1391" y="265" type="line"/>
+      <point x="1391" y="581" type="line"/>
+      <point x="1131" y="824" type="line"/>
+      <point x="618" y="824" type="line"/>
+      <point x="618" y="576" type="line"/>
+    </contour>
+    <contour>
+      <point x="949" y="1062" type="line"/>
+      <point x="949" y="965" type="line" name="hr02"/>
+      <point x="1391" y="965" type="line"/>
+      <point x="1391" y="1062" type="line"/>
+      <point x="1126" y="1327" type="line" name="hr03"/>
+      <point x="787" y="1327" type="line"/>
+      <point x="787" y="1062" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.guides</key>
+      <array>
+        <dict>
+          <key>angle</key>
+          <real>135.0</real>
+          <key>isGlobal</key>
+          <false/>
+          <key>magnetic</key>
+          <integer>5</integer>
+          <key>x</key>
+          <real>1973.0</real>
+          <key>y</key>
+          <real>0.0</real>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

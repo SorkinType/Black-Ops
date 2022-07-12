@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tilde.cap" format="1">
+  <advance width="1309"/>
+  <outline>
+    <contour>
+      <point x="798" y="1609" type="line" name="hr01"/>
+      <point x="638" y="1726" type="line" name="hr02"/>
+      <point x="433" y="1726" type="line"/>
+      <point x="226" y="1512" type="line"/>
+      <point x="290" y="1434" type="line"/>
+      <point x="471" y="1540" type="line"/>
+      <point x="512" y="1540" type="line"/>
+      <point x="672" y="1424" type="line" name="hr03"/>
+      <point x="877" y="1424" type="line"/>
+      <point x="1084" y="1638" type="line"/>
+      <point x="1020" y="1716" type="line"/>
+      <point x="839" y="1609" type="line"/>
+    </contour>
+    <contour>
+      <point x="654" y="1529" type="move" name="_top"/>
+    </contour>
+  </outline>
+</glyph>

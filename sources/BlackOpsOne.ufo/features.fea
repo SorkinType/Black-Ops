@@ -1,0 +1,58 @@
+@.y = [ y yacute ydieresis ];
+
+@.oL = [ o ograve oacute ocircumflex otilde odieresis oslash oe ];
+
+@.Y = [ Y Yacute ];
+
+@.OR = [ O Ograve Oacute Ocircumflex Otilde Odieresis Oslash D ];
+
+@.I = [ I Igrave Iacute Itilde Icircumflex Idieresis ];
+
+@.A = [ A Agrave Aacute Acircumflex Atilde Adieresis Aring ];
+
+@.HR = [ H M N ];
+
+@.eR = [ e ae egrave eacute ecircumflex edieresis ];
+
+@.aL = [ a a agrave aacute acircumflex adieresis atilde aring ae ];
+
+@.R = [ R Racute Rcaron Rcommaaccent ];
+
+@.jR = [ j ij jcircumflex ];
+
+@.c = [ c ccedilla ];
+
+@.k = [ k kcommaaccent kgreenlandic ];
+
+@.oR = [ o ograve oacute ocircumflex otilde odieresis oslash ];
+
+@.r = [ r rcaron rcommaaccent ];
+
+@.u = [ u ugrave uacute ucircumflex udieresis ];
+
+@.aR = [ a a agrave aacute acircumflex adieresis atilde aring ];
+
+@.iL = [ i dotlessi itilde ij igrave iacute icircumflex idieresis ];
+
+@.U = [ U Ugrave Uacute Ucircumflex Udieresis ];
+
+@.EL = [ E Egrave Eacute Ecircumflex Edieresis ];
+
+@.n = [ n nacute ntilde ];
+
+@.N = [ N Nacute Ntilde ];
+
+@.OL = [ O Ograve Oacute Ocircumflex Otilde Odieresis Oslash OE ];
+
+@.HL = [ H B D F H K L M N R Eth ];
+
+@.eL = [ e egrave eacute ecircumflex edieresis ];
+
+@.h = [ h hbar ];
+
+@.ER = [ E Egrave Eacute Ecircumflex Edieresis AE ];
+
+@.iR = [ i dotlessi itilde igrave iacute icircumflex idieresis ];
+
+@.jL = [ j jcircumflex ];
+

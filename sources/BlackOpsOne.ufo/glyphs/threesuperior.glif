@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="threesuperior" format="1">
+  <advance width="1076"/>
+  <unicode hex="00B3"/>
+  <outline>
+    <contour>
+      <point x="792" y="398" type="line" name="hr01"/>
+      <point x="978" y="582" type="line"/>
+      <point x="978" y="772" type="line"/>
+      <point x="886" y="861" type="line"/>
+      <point x="978" y="956" type="line"/>
+      <point x="978" y="1145" type="line"/>
+      <point x="792" y="1327" type="line"/>
+      <point x="665" y="1327" type="line"/>
+      <point x="665" y="956" type="line"/>
+      <point x="359" y="956" type="line"/>
+      <point x="359" y="772" type="line"/>
+      <point x="665" y="772" type="line"/>
+      <point x="665" y="398" type="line"/>
+    </contour>
+    <contour>
+      <point x="79" y="1141" type="line"/>
+      <point x="79" y="1047" type="line"/>
+      <point x="389" y="1047" type="line"/>
+      <point x="389" y="1141" type="line"/>
+      <point x="598" y="1141" type="line"/>
+      <point x="598" y="1327" type="line"/>
+      <point x="265" y="1327" type="line"/>
+    </contour>
+    <contour>
+      <point x="389" y="582" type="line"/>
+      <point x="389" y="677" type="line" name="hr02"/>
+      <point x="79" y="677" type="line"/>
+      <point x="79" y="582" type="line"/>
+      <point x="265" y="398" type="line" name="hr03"/>
+      <point x="598" y="398" type="line"/>
+      <point x="598" y="582" type="line"/>
+    </contour>
+  </outline>
+</glyph>

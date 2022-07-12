@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="question" format="1">
+  <advance width="1407"/>
+  <unicode hex="003F"/>
+  <outline>
+    <contour>
+      <point x="345" y="1327" type="line" name="hr01"/>
+      <point x="79" y="1060" type="line"/>
+      <point x="79" y="929" type="line"/>
+      <point x="522" y="929" type="line"/>
+      <point x="522" y="1062" type="line"/>
+      <point x="885" y="1062" type="line"/>
+      <point x="885" y="832" type="line" name="hr02"/>
+      <point x="694" y="832" type="line"/>
+      <point x="428" y="566" type="line" name="hr03"/>
+      <point x="428" y="442" type="line"/>
+      <point x="872" y="442" type="line"/>
+      <point x="872" y="566" type="line" name="hr04"/>
+      <point x="1062" y="566" type="line"/>
+      <point x="1327" y="832" type="line"/>
+      <point x="1327" y="1062" type="line"/>
+      <point x="1062" y="1327" type="line"/>
+    </contour>
+    <contour>
+      <point x="428" y="0" type="line"/>
+      <point x="872" y="0" type="line"/>
+      <point x="872" y="309" type="line"/>
+      <point x="428" y="309" type="line"/>
+    </contour>
+  </outline>
+</glyph>
