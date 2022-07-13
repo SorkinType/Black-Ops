@@ -14,7 +14,9 @@ I,
 "/acutecomb.case/Sacutedotaccent",
 "/dblgravecomb.case/Rdblgrave",
 "/Alpha-latin",
-"/Sigma"
+"/Sigma",
+"/periodcentered.loclCAT.case",
+"/periodcentered.loclCAT"
 );
 classes = (
 {
@@ -16611,6 +16613,36 @@ width = 746;
 }
 );
 unicode = 005C;
+},
+{
+glyphname = periodcentered.loclCAT.case;
+lastChange = "2022-07-13 03:33:56 +0000";
+layers = (
+{
+components = (
+{
+name = periodcentered;
+}
+);
+layerId = master01;
+width = 725;
+}
+);
+},
+{
+glyphname = periodcentered.loclCAT;
+lastChange = "2022-07-13 03:34:02 +0000";
+layers = (
+{
+components = (
+{
+name = periodcentered;
+}
+);
+layerId = master01;
+width = 725;
+}
+);
 },
 {
 glyphname = parenleft;
