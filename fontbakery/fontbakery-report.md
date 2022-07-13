@@ -14,16 +14,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* quotedblbase
-	* eogonek
-	* Uring
 	* umacron
-	* Uogonek
-	* Ubreve
-	* uni1E57
-	* amacron
 	* Abreve
-	* Iogonek and 44 more.
+	* R
+	* Uring
+	* quotedblbase
+	* Edotaccent
+	* Iogonek
+	* emacron
+	* Ibreve
+	* uni1E41 and 44 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
