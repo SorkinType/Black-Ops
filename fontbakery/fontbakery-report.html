@@ -74,10 +74,10 @@
             <tr>
                 <td>1</td>
                 <td>0</td>
-                <td>13</td>
+                <td>12</td>
                 <td>112</td>
                 <td>7</td>
-                <td>102</td>
+                <td>103</td>
             </tr>
             <tr>
                 <td>1%</td>
@@ -85,12 +85,12 @@
                 <td>7%</td>
                 <td>64%</td>
                 <td>4%</td>
-                <td>58%</td>
+                <td>59%</td>
             </tr>
             </table>
             
 <p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
-<h2>&lt;Section: Google Fonts&gt; 💥⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h2>&lt;Section: Google Fonts&gt; 💥⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
 <h3>Check Google Fonts glyph coverage.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
 
@@ -101,25 +101,20 @@
 
 <details><summary>⚠️ <strong>fonts/ttf/BlackOpsOne-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]</p>
 </span></li></ul></div></details>
-<h3>Description strings in the name table must not exceed 200 characters.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/description_max_length&gt;</div>
-
-<details><summary>⚠️ <strong>fonts/ttf/BlackOpsOne-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]</p>
-</span></li></ul></div></details>
 <h3>Glyphs are similiar to Google Fonts version?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/production_glyphs_similarity&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/BlackOpsOne-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
-* greaterequal
-* Ebreve
-* backslash
-* Ubreve
-* iogonek
-* dotaccent
-* tcaron
-* Abreve
-* Lcaron
-* amacron and 44 more.</p>
+* uni1E0B
+* Aring
+* Uogonek
+* edotaccent
+* Ibreve
+* braceright
+* Cdotaccent
+* uni1E61
+* uni1E6B
+* Ubreve and 44 more.</p>
 <p>Use -F or --full-lists to disable shortening of long lists.</p>
 </span></li></ul></div></details>
 <h3>Are there caret positions declared for every ligature?</h3>
@@ -146,9 +141,7 @@
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/BlackOpsOne-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- uniF8FF
-
-- CR 
+<pre><code>- f_f 
 
 - And .null
 </code></pre>
@@ -180,7 +173,7 @@
 
 - Glyph name: greater	Contours detected: 2	Expected: 1 
 
-- And 615 more.
+- And 614 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists.
 [code: contour-count]</p>
