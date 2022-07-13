@@ -14,16 +14,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* Rcaron
-	* Ydieresis
-	* amacron
-	* uni1E03
+	* braceright
 	* parenright
-	* iogonek
-	* emacron
-	* Uogonek
-	* zdotaccent
-	* greaterequal and 45 more.
+	* Aogonek
+	* Obreve
+	* Eogonek
+	* Ibreve
+	* umacron
+	* uni1E41
+	* uni1E1F
+	* edotaccent and 45 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -34,6 +34,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + f
 
 	- f + i 
 
@@ -47,9 +49,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- f_f 
-
-	- And .null
+	- .null
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -79,7 +79,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: greater	Contours detected: 2	Expected: 1 
 
-	- And 612 more.
+	- And 622 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -162,6 +162,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* Oslashacute (U+01FE): L<<715.0,264.0>--<927.0,265.0>>
 
+	* Sigma (U+03A3): L<<118.0,0.0>--<117.0,225.0>>
+
 	* at (U+0040): L<<1043.0,178.0>--<1359.0,177.0>>
 
 	* colonmonetary (U+20A1): L<<1076.0,0.0>--<1077.0,-179.0>>
@@ -172,11 +174,9 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* lira (U+20A4): L<<230.0,265.0>--<407.0,264.0>>
 
-	* lira (U+20A4): L<<917.0,265.0>--<1513.0,264.0>>
+	* lira (U+20A4): L<<917.0,265.0>--<1513.0,264.0>> 
 
-	* section (U+00A7): L<<956.0,896.0>--<370.0,897.0>> 
-
-	* And 11 more.
+	* And 12 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details>

@@ -105,16 +105,16 @@
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/production_glyphs_similarity&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/BlackOpsOne-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
-* Rcaron
-* Ydieresis
-* amacron
-* uni1E03
+* braceright
 * parenright
-* iogonek
-* emacron
-* Uogonek
-* zdotaccent
-* greaterequal and 45 more.</p>
+* Aogonek
+* Obreve
+* Eogonek
+* Ibreve
+* umacron
+* uni1E41
+* uni1E1F
+* edotaccent and 45 more.</p>
 <p>Use -F or --full-lists to disable shortening of long lists.</p>
 </span></li></ul></div></details>
 <h3>Are there caret positions declared for every ligature?</h3>
@@ -126,7 +126,9 @@
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/kerning_for_non_ligated_sequences&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/BlackOpsOne-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
-<pre><code>- f + i 
+<pre><code>- f + f
+
+- f + i 
 
 - And i + l [code: lacks-kern-info]
 </code></pre>
@@ -141,9 +143,7 @@
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/BlackOpsOne-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- f_f 
-
-- And .null
+<pre><code>- .null
 </code></pre>
 <p>[code: unreachable-glyphs]</p>
 </span></li></ul></div></details>
@@ -173,7 +173,7 @@
 
 - Glyph name: greater	Contours detected: 2	Expected: 1 
 
-- And 612 more.
+- And 622 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists.
 [code: contour-count]</p>
@@ -260,6 +260,8 @@
 
 * Oslashacute (U+01FE): L&lt;&lt;715.0,264.0&gt;--&lt;927.0,265.0&gt;&gt;
 
+* Sigma (U+03A3): L&lt;&lt;118.0,0.0&gt;--&lt;117.0,225.0&gt;&gt;
+
 * at (U+0040): L&lt;&lt;1043.0,178.0&gt;--&lt;1359.0,177.0&gt;&gt;
 
 * colonmonetary (U+20A1): L&lt;&lt;1076.0,0.0&gt;--&lt;1077.0,-179.0&gt;&gt;
@@ -270,11 +272,9 @@
 
 * lira (U+20A4): L&lt;&lt;230.0,265.0&gt;--&lt;407.0,264.0&gt;&gt;
 
-* lira (U+20A4): L&lt;&lt;917.0,265.0&gt;--&lt;1513.0,264.0&gt;&gt;
+* lira (U+20A4): L&lt;&lt;917.0,265.0&gt;--&lt;1513.0,264.0&gt;&gt; 
 
-* section (U+00A7): L&lt;&lt;956.0,896.0&gt;--&lt;370.0,897.0&gt;&gt; 
-
-* And 11 more.
+* And 12 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
 </span></li></ul></div></details>
