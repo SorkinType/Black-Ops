@@ -6,7 +6,12 @@ T,
 n,
 H,
 o,
-e
+e,
+"­",
+s,
+"8",
+"/eight.tf",
+w
 );
 classes = (
 {
@@ -87,7 +92,7 @@ value = "Black Ops is a trademark of Sorkin Type Co.";
 }
 );
 date = "2022-07-12 23:21:46 +0000";
-designer = "James Grieshaber Eben Sorkin";
+designer = "James Grieshaber, Eben Sorkin";
 designerURL = www.typeco.com;
 familyName = "Black Ops One";
 featurePrefixes = (
@@ -5435,7 +5440,7 @@ unicode = 1E68;
 },
 {
 glyphname = Germandbls;
-lastChange = "2022-07-12 18:34:35 +0000";
+lastChange = "2022-07-13 03:04:38 +0000";
 layers = (
 {
 layerId = master01;
@@ -5443,35 +5448,35 @@ paths = (
 {
 closed = 1;
 nodes = (
-"1143 0 LINE",
-"1409 265 LINE",
-"1409 526 LINE",
-"1078 746 LINE",
-"1319 1062 LINE",
-"1319 1327 LINE",
-"620 1327 LINE",
-"620 1062 LINE",
-"958 1062 LINE",
-"768 779 LINE",
-"768 548 LINE",
-"958 548 LINE",
-"958 265 LINE",
-"730 265 LINE",
-"730 0 LINE"
+"1142 0 LINE",
+"1408 265 LINE",
+"1408 526 LINE",
+"1077 746 LINE",
+"1318 1062 LINE",
+"1318 1327 LINE",
+"619 1327 LINE",
+"619 1062 LINE",
+"957 1062 LINE",
+"767 779 LINE",
+"767 548 LINE",
+"957 548 LINE",
+"957 265 LINE",
+"729 265 LINE",
+"729 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"550 0 LINE",
-"550 1327 LINE",
-"373 1327 LINE",
-"107 1062 LINE",
-"107 0 LINE"
+"549 0 LINE",
+"549 1327 LINE",
+"372 1327 LINE",
+"106 1062 LINE",
+"106 0 LINE"
 );
 }
 );
-width = 1496;
+width = 1495;
 }
 );
 leftMetricsKey = "=|U";
@@ -8802,7 +8807,7 @@ unicode = 0259;
 },
 {
 glyphname = f;
-lastChange = "2022-07-12 20:59:08 +0000";
+lastChange = "2022-07-13 03:02:18 +0000";
 layers = (
 {
 anchors = (
@@ -11844,7 +11849,7 @@ unicode = 1E5F;
 },
 {
 glyphname = s;
-lastChange = "2022-07-12 23:28:43 +0000";
+lastChange = "2022-07-13 02:57:02 +0000";
 layers = (
 {
 anchors = (
@@ -11885,7 +11890,7 @@ nodes = (
 "538 304 LINE",
 "95 304 LINE",
 "95 219 LINE",
-"279 1 LINE"
+"279 0 LINE"
 );
 },
 {
@@ -13090,7 +13095,7 @@ unicode = 028C;
 },
 {
 glyphname = w;
-lastChange = "2022-07-12 23:28:34 +0000";
+lastChange = "2022-07-13 03:03:12 +0000";
 layers = (
 {
 anchors = (
@@ -13104,7 +13109,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"736 0 LINE",
+"736 1 LINE",
 "737 -1 LINE",
 "863 403 LINE",
 "704 892 LINE",
@@ -14338,7 +14343,7 @@ unicode = 0037;
 },
 {
 glyphname = eight;
-lastChange = "2022-07-12 23:32:40 +0000";
+lastChange = "2022-07-13 02:57:16 +0000";
 layers = (
 {
 layerId = master01;
@@ -14384,7 +14389,7 @@ nodes = (
 "1013 265 LINE",
 "808 265 LINE",
 "808 0 LINE",
-"1168 -1 LINE"
+"1168 0 LINE"
 );
 }
 );
@@ -14840,7 +14845,7 @@ width = 1541;
 },
 {
 glyphname = eight.tf;
-lastChange = "2022-07-13 01:10:32 +0000";
+lastChange = "2022-07-13 02:57:50 +0000";
 layers = (
 {
 layerId = master01;
@@ -14886,7 +14891,7 @@ nodes = (
 "1013 265 LINE",
 "808 265 LINE",
 "808 0 LINE",
-"1168 -1 LINE"
+"1168 0 LINE"
 );
 }
 );
@@ -15880,22 +15885,11 @@ unicode = 002D;
 },
 {
 glyphname = softhyphen;
-lastChange = "2022-07-13 01:10:32 +0000";
+lastChange = "2022-07-13 02:54:31 +0000";
 layers = (
 {
 layerId = master01;
-paths = (
-{
-closed = 1;
-nodes = (
-"982 486 LINE",
-"982 752 LINE",
-"97 752 LINE",
-"97 486 LINE {name = hr00;}"
-);
-}
-);
-width = 1077;
+width = 0;
 }
 );
 unicode = 00AD;
@@ -20221,7 +20215,7 @@ width = 472;
 },
 {
 glyphname = circumflexcomb;
-lastChange = "2022-07-12 21:01:05 +0000";
+lastChange = "2022-07-13 03:02:18 +0000";
 layers = (
 {
 anchors = (
@@ -20586,7 +20580,7 @@ unicode = 030F;
 },
 {
 glyphname = breveinvertedcomb;
-lastChange = "2022-07-12 20:58:56 +0000";
+lastChange = "2022-07-13 03:02:18 +0000";
 layers = (
 {
 anchors = (
@@ -20978,7 +20972,7 @@ unicode = 0331;
 {
 color = 0;
 glyphname = strokeshortcomb;
-lastChange = "2022-07-12 21:05:23 +0000";
+lastChange = "2022-07-13 03:02:18 +0000";
 layers = (
 {
 layerId = master01;
@@ -21180,7 +21174,7 @@ unicode = 02DD;
 },
 {
 glyphname = circumflex;
-lastChange = "2022-07-12 20:59:41 +0000";
+lastChange = "2022-07-13 03:02:18 +0000";
 layers = (
 {
 anchors = (
