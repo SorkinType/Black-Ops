@@ -72,15 +72,15 @@
                 <th>✔️ PASS</th>
             </tr>
             <tr>
-                <td>1</td>
+                <td>0</td>
                 <td>0</td>
                 <td>12</td>
                 <td>112</td>
                 <td>7</td>
-                <td>103</td>
+                <td>104</td>
             </tr>
             <tr>
-                <td>1%</td>
+                <td>0%</td>
                 <td>0%</td>
                 <td>7%</td>
                 <td>64%</td>
@@ -90,12 +90,7 @@
             </table>
             
 <p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
-<h2>&lt;Section: Google Fonts&gt; 💥⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
-<h3>Check Google Fonts glyph coverage.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
-
-<details><summary>💥 <strong>fonts/ttf/BlackOpsOne-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>Failed with IndexError: list index out of range</p>
-</span></li></ul></div></details>
+<h2>&lt;Section: Google Fonts&gt; ⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
 <h3>License URL matches License text on name table?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/license_url&gt;</div>
 
@@ -105,16 +100,16 @@
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/production_glyphs_similarity&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/BlackOpsOne-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Following glyphs differ greatly from Google Fonts version:
-* bracketright
-* Cdotaccent
+* Obreve
+* eogonek
+* uni1E6B
 * emacron
-* uni1E61
+* gdotaccent
+* umacron
 * zdotaccent
 * Gdotaccent
-* Iogonek
-* Aogonek
-* Uring
-* Zdotaccent and 44 more.</p>
+* backslash
+* uni1E57 and 45 more.</p>
 <p>Use -F or --full-lists to disable shortening of long lists.</p>
 </span></li></ul></div></details>
 <h3>Are there caret positions declared for every ligature?</h3>
@@ -126,7 +121,9 @@
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/kerning_for_non_ligated_sequences&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/BlackOpsOne-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
-<pre><code>- f + i 
+<pre><code>- f + f
+
+- f + i 
 
 - And i + l [code: lacks-kern-info]
 </code></pre>
@@ -141,9 +138,11 @@
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/BlackOpsOne-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- f_f 
+<pre><code>- periodcentered.loclCAT
 
-- And .null
+- .null 
+
+- And periodcentered.loclCAT.case
 </code></pre>
 <p>[code: unreachable-glyphs]</p>
 </span></li></ul></div></details>
@@ -173,7 +172,7 @@
 
 - Glyph name: greater	Contours detected: 2	Expected: 1 
 
-- And 614 more.
+- And 622 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists.
 [code: contour-count]</p>
@@ -188,27 +187,27 @@
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/BlackOpsOne-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* eight (U+0038): X=1168.0,Y=-1.0 (should be at baseline 0?)
+<pre><code>* w (U+0077): X=737.0,Y=-1.0 (should be at baseline 0?)
 
-* s (U+0073): X=279.0,Y=1.0 (should be at baseline 0?)
-
-* w (U+0077): X=737.0,Y=-1.0 (should be at baseline 0?)
-
-* sacute (U+015B): X=279.0,Y=1.0 (should be at baseline 0?)
-
-* scircumflex (U+015D): X=279.0,Y=1.0 (should be at baseline 0?)
-
-* scedilla (U+015F): X=279.0,Y=1.0 (should be at baseline 0?)
-
-* scaron (U+0161): X=279.0,Y=1.0 (should be at baseline 0?)
+* w (U+0077): X=736.0,Y=1.0 (should be at baseline 0?)
 
 * wcircumflex (U+0175): X=737.0,Y=-1.0 (should be at baseline 0?)
 
-* uni0219 (U+0219): X=279.0,Y=1.0 (should be at baseline 0?)
+* wcircumflex (U+0175): X=736.0,Y=1.0 (should be at baseline 0?)
 
-* uni1E4C (U+1E4C): X=572.0,Y=1869.0 (should be at ascender 1871?) 
+* uni1E4C (U+1E4C): X=572.0,Y=1869.0 (should be at ascender 1871?)
 
-* And 23 more.
+* uni1E4F (U+1E4F): X=813.0,Y=1873.0 (should be at ascender 1871?)
+
+* uni1E4F (U+1E4F): X=1149.0,Y=1873.0 (should be at ascender 1871?)
+
+* uni1E4F (U+1E4F): X=283.0,Y=1873.0 (should be at ascender 1871?)
+
+* uni1E4F (U+1E4F): X=619.0,Y=1873.0 (should be at ascender 1871?)
+
+* wgrave (U+1E81): X=737.0,Y=-1.0 (should be at baseline 0?) 
+
+* And 15 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]</p>
 </span></li></ul></div></details>
@@ -218,15 +217,15 @@
 <details><summary>⚠️ <strong>fonts/ttf/BlackOpsOne-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
 <pre><code>* ampersand (U+0026) contains a short segment L&lt;&lt;286.0,904.0&gt;--&lt;285.0,905.0&gt;&gt;
 
-* w (U+0077) contains a short segment L&lt;&lt;737.0,-1.0&gt;--&lt;736.0,0.0&gt;&gt;
+* w (U+0077) contains a short segment L&lt;&lt;737.0,-1.0&gt;--&lt;736.0,1.0&gt;&gt;
 
-* wcircumflex (U+0175) contains a short segment L&lt;&lt;737.0,-1.0&gt;--&lt;736.0,0.0&gt;&gt;
+* wcircumflex (U+0175) contains a short segment L&lt;&lt;737.0,-1.0&gt;--&lt;736.0,1.0&gt;&gt;
 
-* wgrave (U+1E81) contains a short segment L&lt;&lt;737.0,-1.0&gt;--&lt;736.0,0.0&gt;&gt;
+* wgrave (U+1E81) contains a short segment L&lt;&lt;737.0,-1.0&gt;--&lt;736.0,1.0&gt;&gt;
 
-* wacute (U+1E83) contains a short segment L&lt;&lt;737.0,-1.0&gt;--&lt;736.0,0.0&gt;&gt;
+* wacute (U+1E83) contains a short segment L&lt;&lt;737.0,-1.0&gt;--&lt;736.0,1.0&gt;&gt;
 
-* wdieresis (U+1E85) contains a short segment L&lt;&lt;737.0,-1.0&gt;--&lt;736.0,0.0&gt;&gt;
+* wdieresis (U+1E85) contains a short segment L&lt;&lt;737.0,-1.0&gt;--&lt;736.0,1.0&gt;&gt;
 
 * dagger (U+2020) contains a short segment L&lt;&lt;557.0,429.0&gt;--&lt;556.0,429.0&gt;&gt;
 
@@ -260,13 +259,13 @@
 
 * Oslashacute (U+01FE): L&lt;&lt;715.0,264.0&gt;--&lt;927.0,265.0&gt;&gt;
 
+* Sigma (U+03A3): L&lt;&lt;118.0,0.0&gt;--&lt;117.0,225.0&gt;&gt;
+
 * at (U+0040): L&lt;&lt;1043.0,178.0&gt;--&lt;1359.0,177.0&gt;&gt;
 
 * colonmonetary (U+20A1): L&lt;&lt;1076.0,0.0&gt;--&lt;1077.0,-179.0&gt;&gt;
 
 * colonmonetary (U+20A1): L&lt;&lt;777.0,0.0&gt;--&lt;778.0,-179.0&gt;&gt;
-
-* eight (U+0038): L&lt;&lt;1168.0,-1.0&gt;--&lt;808.0,0.0&gt;&gt;
 
 * eth (U+00F0): L&lt;&lt;1245.0,966.0&gt;--&lt;1248.0,265.0&gt;&gt;
 
@@ -274,7 +273,7 @@
 
 * lira (U+20A4): L&lt;&lt;917.0,265.0&gt;--&lt;1513.0,264.0&gt;&gt; 
 
-* And 19 more.
+* And 12 more.
 </code></pre>
 <p>Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]</p>
 </span></li></ul></div></details>

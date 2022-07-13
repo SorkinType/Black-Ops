@@ -2,11 +2,7 @@
 
 Fontbakery version: 0.8.9
 
-<details><summary><b>[13] BlackOpsOne-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+<details><summary><b>[12] BlackOpsOne-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
 * ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
@@ -14,16 +10,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* bracketright
-	* Cdotaccent
+	* Obreve
+	* eogonek
+	* uni1E6B
 	* emacron
-	* uni1E61
+	* gdotaccent
+	* umacron
 	* zdotaccent
 	* Gdotaccent
-	* Iogonek
-	* Aogonek
-	* Uring
-	* Zdotaccent and 44 more.
+	* backslash
+	* uni1E57 and 45 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -34,6 +30,8 @@ Use -F or --full-lists to disable shortening of long lists.
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
+
+	- f + f
 
 	- f + i 
 
@@ -47,9 +45,11 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- f_f 
+	- periodcentered.loclCAT
 
-	- And .null
+	- .null 
+
+	- And periodcentered.loclCAT.case
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -79,7 +79,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: greater	Contours detected: 2	Expected: 1 
 
-	- And 614 more.
+	- And 622 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -92,27 +92,27 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* eight (U+0038): X=1168.0,Y=-1.0 (should be at baseline 0?)
-
-	* s (U+0073): X=279.0,Y=1.0 (should be at baseline 0?)
-
 	* w (U+0077): X=737.0,Y=-1.0 (should be at baseline 0?)
 
-	* sacute (U+015B): X=279.0,Y=1.0 (should be at baseline 0?)
-
-	* scircumflex (U+015D): X=279.0,Y=1.0 (should be at baseline 0?)
-
-	* scedilla (U+015F): X=279.0,Y=1.0 (should be at baseline 0?)
-
-	* scaron (U+0161): X=279.0,Y=1.0 (should be at baseline 0?)
+	* w (U+0077): X=736.0,Y=1.0 (should be at baseline 0?)
 
 	* wcircumflex (U+0175): X=737.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni0219 (U+0219): X=279.0,Y=1.0 (should be at baseline 0?)
+	* wcircumflex (U+0175): X=736.0,Y=1.0 (should be at baseline 0?)
 
-	* uni1E4C (U+1E4C): X=572.0,Y=1869.0 (should be at ascender 1871?) 
+	* uni1E4C (U+1E4C): X=572.0,Y=1869.0 (should be at ascender 1871?)
 
-	* And 23 more.
+	* uni1E4F (U+1E4F): X=813.0,Y=1873.0 (should be at ascender 1871?)
+
+	* uni1E4F (U+1E4F): X=1149.0,Y=1873.0 (should be at ascender 1871?)
+
+	* uni1E4F (U+1E4F): X=283.0,Y=1873.0 (should be at ascender 1871?)
+
+	* uni1E4F (U+1E4F): X=619.0,Y=1873.0 (should be at ascender 1871?)
+
+	* wgrave (U+1E81): X=737.0,Y=-1.0 (should be at baseline 0?) 
+
+	* And 15 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -122,15 +122,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* ampersand (U+0026) contains a short segment L<<286.0,904.0>--<285.0,905.0>>
 
-	* w (U+0077) contains a short segment L<<737.0,-1.0>--<736.0,0.0>>
+	* w (U+0077) contains a short segment L<<737.0,-1.0>--<736.0,1.0>>
 
-	* wcircumflex (U+0175) contains a short segment L<<737.0,-1.0>--<736.0,0.0>>
+	* wcircumflex (U+0175) contains a short segment L<<737.0,-1.0>--<736.0,1.0>>
 
-	* wgrave (U+1E81) contains a short segment L<<737.0,-1.0>--<736.0,0.0>>
+	* wgrave (U+1E81) contains a short segment L<<737.0,-1.0>--<736.0,1.0>>
 
-	* wacute (U+1E83) contains a short segment L<<737.0,-1.0>--<736.0,0.0>>
+	* wacute (U+1E83) contains a short segment L<<737.0,-1.0>--<736.0,1.0>>
 
-	* wdieresis (U+1E85) contains a short segment L<<737.0,-1.0>--<736.0,0.0>>
+	* wdieresis (U+1E85) contains a short segment L<<737.0,-1.0>--<736.0,1.0>>
 
 	* dagger (U+2020) contains a short segment L<<557.0,429.0>--<556.0,429.0>>
 
@@ -162,13 +162,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* Oslashacute (U+01FE): L<<715.0,264.0>--<927.0,265.0>>
 
+	* Sigma (U+03A3): L<<118.0,0.0>--<117.0,225.0>>
+
 	* at (U+0040): L<<1043.0,178.0>--<1359.0,177.0>>
 
 	* colonmonetary (U+20A1): L<<1076.0,0.0>--<1077.0,-179.0>>
 
 	* colonmonetary (U+20A1): L<<777.0,0.0>--<778.0,-179.0>>
-
-	* eight (U+0038): L<<1168.0,-1.0>--<808.0,0.0>>
 
 	* eth (U+00F0): L<<1245.0,966.0>--<1248.0,265.0>>
 
@@ -176,7 +176,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* lira (U+20A4): L<<917.0,265.0>--<1513.0,264.0>> 
 
-	* And 19 more.
+	* And 12 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details>
@@ -184,7 +184,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 0 | 12 | 112 | 7 | 103 | 0 |
+| 0 | 0 | 12 | 112 | 7 | 104 | 0 |
 | 0% | 0% | 5% | 48% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
