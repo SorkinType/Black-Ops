@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.9
 
-<details><summary><b>[14] BlackOpsOne-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[13] BlackOpsOne-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -10,24 +10,20 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Description strings in the name table must not exceed 200 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/description_max_length">com.google.fonts/check/name/description_max_length</a>)</summary><div>
-
-
-* ⚠ **WARN** A few name table entries with ID=10 (NameID.DESCRIPTION) are longer than 200 characters. Please check whether those entries are copyright notices mistakenly stored in the description string entries by a bug in an old FontLab version. If that's the case, then such copyright notices must be removed from these entries. [code: too-long]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* backslash
-	* Ubreve
-	* Gdotaccent
-	* uni1E57
-	* Rcaron
-	* dotaccent
+	* umacron
+	* Abreve
 	* R
+	* Uring
 	* quotedblbase
-	* amacron
-	* uni1E6B and 44 more.
+	* Edotaccent
+	* Iogonek
+	* emacron
+	* Ibreve
+	* uni1E41 and 44 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -51,11 +47,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- .null
+	- .null 
 
-	- uniF8FF 
-
-	- And CR
+	- And f_f
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -85,7 +79,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: greater	Contours detected: 2	Expected: 1 
 
-	- And 615 more.
+	- And 614 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -190,8 +184,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 1 | 0 | 13 | 112 | 7 | 102 | 0 |
-| 0% | 0% | 6% | 48% | 3% | 43% | 0% |
+| 1 | 0 | 12 | 112 | 7 | 103 | 0 |
+| 0% | 0% | 5% | 48% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
