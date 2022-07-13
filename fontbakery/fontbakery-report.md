@@ -14,16 +14,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* lslash
+	* Rcaron
+	* Ydieresis
+	* amacron
+	* uni1E03
+	* parenright
 	* iogonek
-	* Uring
-	* greaterequal
-	* Eogonek
-	* bracketright
-	* braceright
-	* dotaccent
 	* emacron
-	* Rcaron and 44 more.
+	* Uogonek
+	* zdotaccent
+	* greaterequal and 45 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -47,9 +47,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- .null 
+	- f_f 
 
-	- And f_f
+	- And .null
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -79,7 +79,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: greater	Contours detected: 2	Expected: 1 
 
-	- And 614 more.
+	- And 612 more.
 
 Use -F or --full-lists to disable shortening of long lists.
  [code: contour-count]
@@ -92,27 +92,27 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* eight (U+0038): X=1168.0,Y=-1.0 (should be at baseline 0?)
-
-	* s (U+0073): X=279.0,Y=1.0 (should be at baseline 0?)
-
 	* w (U+0077): X=737.0,Y=-1.0 (should be at baseline 0?)
 
-	* sacute (U+015B): X=279.0,Y=1.0 (should be at baseline 0?)
-
-	* scircumflex (U+015D): X=279.0,Y=1.0 (should be at baseline 0?)
-
-	* scedilla (U+015F): X=279.0,Y=1.0 (should be at baseline 0?)
-
-	* scaron (U+0161): X=279.0,Y=1.0 (should be at baseline 0?)
+	* w (U+0077): X=736.0,Y=1.0 (should be at baseline 0?)
 
 	* wcircumflex (U+0175): X=737.0,Y=-1.0 (should be at baseline 0?)
 
-	* uni0219 (U+0219): X=279.0,Y=1.0 (should be at baseline 0?)
+	* wcircumflex (U+0175): X=736.0,Y=1.0 (should be at baseline 0?)
 
-	* uni1E4C (U+1E4C): X=572.0,Y=1869.0 (should be at ascender 1871?) 
+	* uni1E4C (U+1E4C): X=572.0,Y=1869.0 (should be at ascender 1871?)
 
-	* And 23 more.
+	* uni1E4F (U+1E4F): X=813.0,Y=1873.0 (should be at ascender 1871?)
+
+	* uni1E4F (U+1E4F): X=1149.0,Y=1873.0 (should be at ascender 1871?)
+
+	* uni1E4F (U+1E4F): X=283.0,Y=1873.0 (should be at ascender 1871?)
+
+	* uni1E4F (U+1E4F): X=619.0,Y=1873.0 (should be at ascender 1871?)
+
+	* wgrave (U+1E81): X=737.0,Y=-1.0 (should be at baseline 0?) 
+
+	* And 15 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -122,15 +122,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* ampersand (U+0026) contains a short segment L<<286.0,904.0>--<285.0,905.0>>
 
-	* w (U+0077) contains a short segment L<<737.0,-1.0>--<736.0,0.0>>
+	* w (U+0077) contains a short segment L<<737.0,-1.0>--<736.0,1.0>>
 
-	* wcircumflex (U+0175) contains a short segment L<<737.0,-1.0>--<736.0,0.0>>
+	* wcircumflex (U+0175) contains a short segment L<<737.0,-1.0>--<736.0,1.0>>
 
-	* wgrave (U+1E81) contains a short segment L<<737.0,-1.0>--<736.0,0.0>>
+	* wgrave (U+1E81) contains a short segment L<<737.0,-1.0>--<736.0,1.0>>
 
-	* wacute (U+1E83) contains a short segment L<<737.0,-1.0>--<736.0,0.0>>
+	* wacute (U+1E83) contains a short segment L<<737.0,-1.0>--<736.0,1.0>>
 
-	* wdieresis (U+1E85) contains a short segment L<<737.0,-1.0>--<736.0,0.0>>
+	* wdieresis (U+1E85) contains a short segment L<<737.0,-1.0>--<736.0,1.0>>
 
 	* dagger (U+2020) contains a short segment L<<557.0,429.0>--<556.0,429.0>>
 
@@ -168,15 +168,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* colonmonetary (U+20A1): L<<777.0,0.0>--<778.0,-179.0>>
 
-	* eight (U+0038): L<<1168.0,-1.0>--<808.0,0.0>>
-
 	* eth (U+00F0): L<<1245.0,966.0>--<1248.0,265.0>>
 
 	* lira (U+20A4): L<<230.0,265.0>--<407.0,264.0>>
 
-	* lira (U+20A4): L<<917.0,265.0>--<1513.0,264.0>> 
+	* lira (U+20A4): L<<917.0,265.0>--<1513.0,264.0>>
 
-	* And 19 more.
+	* section (U+00A7): L<<956.0,896.0>--<370.0,897.0>> 
+
+	* And 11 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details>
