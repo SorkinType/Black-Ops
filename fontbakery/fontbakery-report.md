@@ -10,16 +10,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* Uring
-	* uni1E61
-	* uni1E41
-	* Ebreve
-	* iogonek
+	* emacron
+	* eogonek
+	* Ibreve
+	* omacron
+	* aogonek
+	* uni1E6B
 	* backslash
-	* Lcaron
-	* uni1E57
-	* braceright
-	* R and 45 more.
+	* Obreve
+	* Uogonek
+	* umacron and 45 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -46,10 +46,6 @@ Use -F or --full-lists to disable shortening of long lists.
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
 	- .null
-
-	- periodcentered.loclCAT.case 
-
-	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
