@@ -10,16 +10,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* Cdotaccent
-	* uni1E1F
-	* Aogonek
-	* backslash
-	* lslash
-	* lacute
-	* emacron
+	* Uring
+	* uni1E61
+	* uni1E41
 	* Ebreve
-	* dcaron
-	* greaterequal and 45 more.
+	* iogonek
+	* backslash
+	* Lcaron
+	* uni1E57
+	* braceright
+	* R and 45 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -45,9 +45,9 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- periodcentered.loclCAT.case
+	- .null
 
-	- .null 
+	- periodcentered.loclCAT.case 
 
 	- And periodcentered.loclCAT
  [code: unreachable-glyphs]
