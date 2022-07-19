@@ -10,16 +10,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* Uring
+	* uni1E61
+	* edotaccent
 	* emacron
-	* eogonek
-	* Ibreve
-	* omacron
-	* aogonek
-	* uni1E6B
-	* backslash
-	* Obreve
-	* Uogonek
-	* umacron and 45 more.
+	* Lcaron
+	* iogonek
+	* quotedblbase
+	* Racute
+	* lcaron
+	* dotaccent and 45 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -90,11 +90,7 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* w (U+0077): X=737.0,Y=-1.0 (should be at baseline 0?)
 
-	* w (U+0077): X=736.0,Y=1.0 (should be at baseline 0?)
-
 	* wcircumflex (U+0175): X=737.0,Y=-1.0 (should be at baseline 0?)
-
-	* wcircumflex (U+0175): X=736.0,Y=1.0 (should be at baseline 0?)
 
 	* uni1E4C (U+1E4C): X=572.0,Y=1869.0 (should be at ascender 1871?)
 
@@ -106,9 +102,13 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni1E4F (U+1E4F): X=619.0,Y=1873.0 (should be at ascender 1871?)
 
-	* wgrave (U+1E81): X=737.0,Y=-1.0 (should be at baseline 0?) 
+	* wgrave (U+1E81): X=737.0,Y=-1.0 (should be at baseline 0?)
 
-	* And 15 more.
+	* wacute (U+1E83): X=737.0,Y=-1.0 (should be at baseline 0?)
+
+	* wdieresis (U+1E85): X=737.0,Y=-1.0 (should be at baseline 0?) 
+
+	* And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -117,16 +117,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have segments which seem very short:
 
 	* ampersand (U+0026) contains a short segment L<<286.0,904.0>--<285.0,905.0>>
-
-	* w (U+0077) contains a short segment L<<737.0,-1.0>--<736.0,1.0>>
-
-	* wcircumflex (U+0175) contains a short segment L<<737.0,-1.0>--<736.0,1.0>>
-
-	* wgrave (U+1E81) contains a short segment L<<737.0,-1.0>--<736.0,1.0>>
-
-	* wacute (U+1E83) contains a short segment L<<737.0,-1.0>--<736.0,1.0>>
-
-	* wdieresis (U+1E85) contains a short segment L<<737.0,-1.0>--<736.0,1.0>>
 
 	* dagger (U+2020) contains a short segment L<<557.0,429.0>--<556.0,429.0>>
 
