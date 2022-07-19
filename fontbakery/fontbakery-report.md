@@ -10,16 +10,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* amacron
-	* Aogonek
-	* edotaccent
-	* bracketright
-	* parenright
-	* eth
-	* Uring
-	* Ydieresis
-	* Rcaron
-	* dcaron and 46 more.
+	* Racute
+	* uni1E03
+	* Iogonek
+	* quotedblbase
+	* uni00AD
+	* Gdotaccent
+	* Aring
+	* eogonek
+	* emacron
+	* Uring and 46 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -88,10 +88,6 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
 
-	* w (U+0077): X=737.0,Y=-1.0 (should be at baseline 0?)
-
-	* wcircumflex (U+0175): X=737.0,Y=-1.0 (should be at baseline 0?)
-
 	* uni1E4C (U+1E4C): X=572.0,Y=1869.0 (should be at ascender 1871?)
 
 	* uni1E4F (U+1E4F): X=813.0,Y=1873.0 (should be at ascender 1871?)
@@ -102,23 +98,23 @@ Use -F or --full-lists to disable shortening of long lists.
 
 	* uni1E4F (U+1E4F): X=619.0,Y=1873.0 (should be at ascender 1871?)
 
-	* wgrave (U+1E81): X=737.0,Y=-1.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=650.0,Y=-1.0 (should be at baseline 0?)
 
-	* wacute (U+1E83): X=737.0,Y=-1.0 (should be at baseline 0?)
+	* quotesinglbase (U+201A): X=332.0,Y=-1.0 (should be at baseline 0?)
 
-	* wdieresis (U+1E85): X=737.0,Y=-1.0 (should be at baseline 0?) 
+	* quotesinglbase (U+201A): X=164.0,Y=-1.0 (should be at baseline 0?)
 
-	* And 10 more.
+	* quotedblbase (U+201E): X=650.0,Y=-1.0 (should be at baseline 0?)
+
+	* quotedblbase (U+201E): X=332.0,Y=-1.0 (should be at baseline 0?) 
+
+	* And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* IJ (U+0132): L<<117.0,0.0>--<119.0,265.0>>
-
-	* Sigma (U+03A3): L<<118.0,0.0>--<117.0,225.0>>
 
 	* colonmonetary (U+20A1): L<<1076.0,0.0>--<1077.0,-179.0>>
 
@@ -128,17 +124,13 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* section (U+00A7): L<<956.0,896.0>--<370.0,897.0>>
 
-	* sterling (U+00A3): L<<230.0,265.0>--<407.0,264.0>>
-
-	* sterling (U+00A3): L<<917.0,265.0>--<1513.0,264.0>>
-
 	* summation (U+2211): L<<118.0,-173.0>--<117.0,52.0>>
 
-	* uni20AA (U+20AA): L<<117.0,1486.0>--<1008.0,1487.0>> 
+	* uni20AA (U+20AA): L<<117.0,1486.0>--<1008.0,1487.0>>
 
-	* And 7 more.
+	* uni20AD (U+20AD): L<<937.0,1326.0>--<1397.0,1327.0>> 
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
+	* And uni20B5 (U+20B5): L<<907.0,0.0>--<908.0,-179.0>> [code: found-semi-vertical]
 </div></details><br></div></details>
 ### Summary
 
