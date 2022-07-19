@@ -1,25 +1,5 @@
 {
 .appVersion = "1361";
-DisplayStrings = (
-"/Omega",
-"/mu",
-"/dblgravecomb.case",
-"/Eopen",
-"/alpha-latin",
-"/eopen",
-"/strokeshortcomb/idotless/istroke",
-"/istroke",
-I,
-"/Istroke",
-"/acutecomb.case/Sacutedotaccent",
-"/dblgravecomb.case/Rdblgrave",
-"/Alpha-latin",
-"/Sigma",
-"/periodcentered.loclCAT.case",
-"/periodcentered.loclCAT",
-"\012TEHATDIV/space TEHAVDIV/space \012Toider/space Voider/space \012TEHATDIV/space TEHAVDIV/space \012TEHAHDIV/space \012nikoid/space \012ninid/space \012niaaid/space \012niffid/space \012nirrid/space \012nijid/space \012nitoid/space \012niaaid/space Voider/space \012nifoid/space \012TEHTHDIV/space \012TEHOHDIV/space \012nisoid/space \012nioaid/space \012nicoid/space \012TEHSSDIV/space \012ni/jacute id/space \012nidid/space \012nitid/space \012nisid/space \012TEHSTDIV/space \012nieid/space \012TEHLODIV/space \012TEHBADIV/space \012TEHXXDIV/space \012TEHRHDIV/space \012TEHTSDIV/space \012niofid/space \012TEHOVDIV/space \012Fider/space \012Grider/space \012nikoid/space TEHPADIV/space \012-T\012TEHIIDIV/space \012nigjid/space \012nifaid/space \012Loider/space \012nistid/space \012².\012nikjid/space \012TEHSODIV/space \012niroid/space \012Etider/space \012TEHIODIV/space \012Tuider/space \012nictid/space \012nitaid/space \012t:\012Pider/space \012TEHLSDIV/space \012nieoid/space \012ID",
-"AV\012BA\012IO\012LT\012LV\012PA\012ST\012TS\012Fo\012To\012Tu\012Vo\012fa\012gy\012ko\012oa\012of\012ta\012to\012ys\012².\012t:\012-T\012\012LS\012OH\012SO\012SS\012Et\012Lo\012Pi\012co\012ct\012id\012ij\012in\012\012II\012LO\012OV\012RH\012XX\012Fi\012ff\012fi\012gj\012it\012ro\012rr\012st\012\012Vider/space \012TEHTHDIV/space \012nilaid/space \012nizzid/space \012Xider/space \012TEHRADIV/space \012nirfid/space \012niktid/space \012nizid/space \012nituid/space \012TEHSSDIV/space TEHSODIV/space \012nirrid/space nituid/space \012nirvid/space \012nicoid/space nirvid/space \012Klider/space \012nirrid/space nituid/space \012TEHLIDIV/space \012TEHTHDIV/space TEHLIDIV/space \012nirtid/space \012nirrid/space nirtid/space \012nirtid/space nirfid/space \012nirfid/space nirtid/space \012nitaid/space Xider/space \012nitaid/space niysid/space \012nirfid/space Klider/space \012nirrid/space nirvid/space \012nictid/space Klider/space \012TEHGADIV/space \012nisoid/space \012nivid/space \012Thider/space \012nituid/space nirvid/space \012nisid/space \012TEHATDIV/space \012x.\012Coider/space \012TEHRUDIV/space \012nifoid/space \012m:\012TEHSIDIV/space \012(U\012nieid/space \012Osider/space"
-);
 classes = (
 {
 automatic = 1;
@@ -4727,7 +4707,7 @@ unicode = 1ECE;
 },
 {
 glyphname = Ohorn;
-lastChange = "2022-07-12 23:32:18 +0000";
+lastChange = "2022-07-19 00:00:34 +0000";
 layers = (
 {
 anchors = (
@@ -4795,8 +4775,8 @@ nodes = (
 "1502 1300 LINE",
 "1502 1612 LINE",
 "1220 1612 LINE {name = hr00;}",
-"1220 1327 LINE {name = \"❌\";}",
-"1057 1327 LINE {name = \"❌\";}",
+"1220 1327 LINE",
+"1057 1327 LINE",
 "1057 1125 LINE"
 );
 }
@@ -12143,7 +12123,7 @@ unicode = 1ECF;
 },
 {
 glyphname = ohorn;
-lastChange = "2022-07-12 23:32:23 +0000";
+lastChange = "2022-07-19 00:00:35 +0000";
 layers = (
 {
 anchors = (
@@ -12207,8 +12187,8 @@ nodes = (
 "1616 1035 LINE",
 "1616 1347 LINE",
 "1334 1347 LINE {name = hr00;}",
-"1334 1062 LINE {name = \"❌\";}",
-"949 1062 LINE {name = \"❌\";}",
+"1334 1062 LINE",
+"949 1062 LINE",
 "1054 860 LINE"
 );
 }
@@ -14030,7 +14010,7 @@ unicode = 1EE7;
 },
 {
 glyphname = uhorn;
-lastChange = "2022-07-12 23:32:28 +0000";
+lastChange = "2022-07-19 00:00:35 +0000";
 layers = (
 {
 anchors = (
@@ -14082,8 +14062,8 @@ nodes = (
 "1607 1035 LINE",
 "1607 1347 LINE",
 "1325 1347 LINE {name = hr00;}",
-"1325 1062 LINE {name = \"❌\";}",
-"1162 1062 LINE {name = \"❌\";}",
+"1325 1062 LINE",
+"1162 1062 LINE",
 "1162 860 LINE"
 );
 }
@@ -14452,7 +14432,7 @@ unicode = 028C;
 },
 {
 glyphname = w;
-lastChange = "2022-07-18 22:50:14 +0000";
+lastChange = "2022-07-18 23:59:34 +0000";
 layers = (
 {
 anchors = (
@@ -14466,14 +14446,22 @@ paths = (
 {
 closed = 1;
 nodes = (
+"1860 1062 LINE",
+"1446 1062 LINE",
+"1327 638 LINE",
+"1513 66 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"737 -1 LINE",
 "863 403 LINE",
 "704 892 LINE",
 "581 509 LINE",
 "408 1062 LINE",
 "-14 1062 LINE",
-"367 0 LINE {name = hr00;}",
-"736 1 LINE",
-"737 -1 LINE"
+"367 0 LINE {name = hr00;}"
 );
 },
 {
@@ -14483,15 +14471,6 @@ nodes = (
 "1127 1062 LINE",
 "710 1062 LINE",
 "1068 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"1860 1062 LINE",
-"1446 1062 LINE",
-"1327 638 LINE",
-"1513 66 LINE"
 );
 }
 );
@@ -15246,7 +15225,7 @@ R = superiors;
 },
 {
 glyphname = ordmasculine;
-lastChange = "2022-07-18 22:50:45 +0000";
+lastChange = "2022-07-19 00:00:35 +0000";
 layers = (
 {
 layerId = master01;
@@ -15257,8 +15236,8 @@ nodes = (
 "807 528 LINE",
 "1007 729 LINE",
 "1007 1127 LINE {name = hr00;}",
-"807 1327 LINE {name = \"❌\";}",
-"607 1327 LINE {name = \"❌\";}",
+"807 1327 LINE",
+"607 1327 LINE",
 "607 1127 LINE",
 "674 1127 LINE",
 "674 729 LINE",
@@ -15287,8 +15266,8 @@ nodes = (
 "474 729 LINE",
 "474 1127 LINE",
 "539 1127 LINE",
-"539 1327 LINE {name = \"❌\";}",
-"341 1327 LINE {name = \"❌\";}",
+"539 1327 LINE",
+"341 1327 LINE",
 "142 1127 LINE",
 "142 729 LINE",
 "341 528 LINE"
@@ -15881,7 +15860,7 @@ unicode = 0037;
 },
 {
 glyphname = eight;
-lastChange = "2022-07-18 22:50:14 +0000";
+lastChange = "2022-07-19 00:00:36 +0000";
 layers = (
 {
 layerId = master01;
@@ -15916,7 +15895,7 @@ nodes = (
 "1433 538 LINE",
 "1275 671 LINE",
 "1433 804 LINE",
-"1433 1062 LINE {name = \"❌\";}",
+"1433 1062 LINE",
 "1168 1327 LINE",
 "808 1327 LINE",
 "808 1062 LINE",
@@ -16387,7 +16366,7 @@ width = 1299;
 },
 {
 glyphname = eight.lf;
-lastChange = "2022-07-18 22:50:14 +0000";
+lastChange = "2022-07-19 00:00:36 +0000";
 layers = (
 {
 layerId = master01;
@@ -16422,7 +16401,7 @@ nodes = (
 "1433 538 LINE",
 "1275 671 LINE",
 "1433 804 LINE",
-"1433 1062 LINE {name = \"❌\";}",
+"1433 1062 LINE",
 "1168 1327 LINE",
 "808 1327 LINE",
 "808 1062 LINE",
@@ -16935,7 +16914,7 @@ R = NoKerning;
 },
 {
 glyphname = eight.tf;
-lastChange = "2022-07-18 22:50:45 +0000";
+lastChange = "2022-07-19 00:00:36 +0000";
 layers = (
 {
 layerId = master01;
@@ -16970,7 +16949,7 @@ nodes = (
 "1433 538 LINE",
 "1275 671 LINE",
 "1433 804 LINE",
-"1433 1062 LINE {name = \"❌\";}",
+"1433 1062 LINE",
 "1168 1327 LINE",
 "808 1327 LINE",
 "808 1062 LINE",
@@ -17701,7 +17680,7 @@ R = "spaced-off";
 },
 {
 glyphname = question;
-lastChange = "2022-07-18 22:50:45 +0000";
+lastChange = "2022-07-19 00:00:36 +0000";
 layers = (
 {
 layerId = master01;
@@ -17716,7 +17695,7 @@ nodes = (
 "1327 1062 LINE",
 "1062 1327 LINE",
 "345 1327 LINE {name = hr01;}",
-"79 1062 LINE {name = \"❌\";}",
+"79 1062 LINE",
 "79 929 LINE",
 "522 929 LINE",
 "522 1062 LINE",
@@ -21370,7 +21349,7 @@ unicode = 222B;
 },
 {
 glyphname = Ohm;
-lastChange = "2022-07-13 01:10:32 +0000";
+lastChange = "2022-07-19 00:00:36 +0000";
 layers = (
 {
 layerId = master01;
@@ -21378,7 +21357,7 @@ paths = (
 {
 closed = 1;
 nodes = (
-"1374 0 LINE {name = \"❌\";}",
+"1374 0 LINE",
 "1374 250 LINE",
 "1107 250 LINE",
 "1376 515 LINE",
@@ -21389,13 +21368,13 @@ nodes = (
 "933 1062 LINE",
 "933 520 LINE",
 "817 400 LINE",
-"817 0 LINE {name = \"❌\";}"
+"817 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"645 0 LINE {name = \"❌\";}",
+"645 0 LINE",
 "645 400 LINE",
 "529 520 LINE",
 "529 1062 LINE",
@@ -21406,7 +21385,7 @@ nodes = (
 "86 515 LINE",
 "355 250 LINE",
 "88 250 LINE",
-"88 0 LINE {name = \"❌\";}"
+"88 0 LINE"
 );
 }
 );
@@ -21679,7 +21658,7 @@ unicode = 00B5;
 },
 {
 glyphname = percent;
-lastChange = "2022-07-18 22:50:45 +0000";
+lastChange = "2022-07-19 00:00:37 +0000";
 layers = (
 {
 layerId = master01;
@@ -21701,8 +21680,8 @@ nodes = (
 "497 780 LINE",
 "497 1129 LINE",
 "561 1129 LINE",
-"561 1327 LINE {name = \"❌\";}",
-"364 1327 LINE {name = \"❌\";}",
+"561 1327 LINE",
+"364 1327 LINE",
 "164 1129 LINE",
 "164 783 LINE",
 "364 582 LINE"
@@ -21714,8 +21693,8 @@ nodes = (
 "829 582 LINE",
 "1029 783 LINE",
 "1029 1129 LINE {name = hr01;}",
-"829 1327 LINE {name = \"❌\";}",
-"631 1327 LINE {name = \"❌\";}",
+"829 1327 LINE",
+"631 1327 LINE",
 "631 1129 LINE",
 "696 1129 LINE",
 "696 780 LINE {name = hr02;}",
@@ -21793,7 +21772,7 @@ L = "spaced-off";
 },
 {
 glyphname = perthousand;
-lastChange = "2022-07-12 23:31:58 +0000";
+lastChange = "2022-07-19 00:00:37 +0000";
 layers = (
 {
 layerId = master01;
@@ -21815,8 +21794,8 @@ nodes = (
 "497 780 LINE",
 "497 1129 LINE",
 "561 1129 LINE",
-"561 1327 LINE {name = \"❌\";}",
-"364 1327 LINE {name = \"❌\";}",
+"561 1327 LINE",
+"364 1327 LINE",
 "164 1129 LINE",
 "164 783 LINE",
 "364 582 LINE"
@@ -21828,8 +21807,8 @@ nodes = (
 "829 582 LINE",
 "1029 783 LINE",
 "1029 1129 LINE",
-"829 1327 LINE {name = \"❌\";}",
-"631 1327 LINE {name = \"❌\";}",
+"829 1327 LINE",
+"631 1327 LINE",
 "631 1129 LINE",
 "696 1129 LINE",
 "696 780 LINE",
@@ -22452,7 +22431,7 @@ L = superiors;
 },
 {
 glyphname = trademark;
-lastChange = "2022-07-18 22:50:45 +0000";
+lastChange = "2022-07-19 00:01:52 +0000";
 layers = (
 {
 layerId = master01;
@@ -22462,9 +22441,9 @@ closed = 1;
 nodes = (
 "1107 918 LINE",
 "1107 1215 LINE",
-"1019 1063 LINE {name = \"❌\";}",
-"859 1327 LINE {name = \"❌\";}",
-"651 1327 LINE {name = \"❌\";}",
+"1019 1062 LINE",
+"859 1327 LINE",
+"651 1327 LINE",
 "1000 737 LINE {name = hr00;}"
 );
 },
@@ -22481,8 +22460,8 @@ nodes = (
 closed = 1;
 nodes = (
 "660 1181 LINE",
-"572 1327 LINE {name = \"❌\";}",
-"98 1327 LINE {name = \"❌\";}",
+"572 1327 LINE",
+"98 1327 LINE",
 "98 1181 LINE"
 );
 },
@@ -22500,8 +22479,8 @@ nodes = (
 closed = 1;
 nodes = (
 "1370 737 LINE",
-"1370 1327 LINE {name = \"❌\";}",
-"1174 1327 LINE {name = \"❌\";}",
+"1370 1327 LINE",
+"1174 1327 LINE",
 "1174 737 LINE"
 );
 }
