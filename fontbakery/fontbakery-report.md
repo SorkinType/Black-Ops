@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.9
 
-<details><summary><b>[12] BlackOpsOne-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
+<details><summary><b>[10] BlackOpsOne-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
 
 * ⚠ **WARN** Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]
@@ -10,16 +10,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* Uring
-	* uni1E61
+	* amacron
+	* Aogonek
 	* edotaccent
-	* emacron
-	* Lcaron
-	* iogonek
-	* quotedblbase
-	* Racute
-	* lcaron
-	* dotaccent and 45 more.
+	* bracketright
+	* parenright
+	* eth
+	* Uring
+	* Ydieresis
+	* Rcaron
+	* dcaron and 46 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
@@ -111,32 +111,6 @@ Use -F or --full-lists to disable shortening of long lists.
 	* And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have segments which seem very short:
-
-	* ampersand (U+0026) contains a short segment L<<286.0,904.0>--<285.0,905.0>>
-
-	* dagger (U+2020) contains a short segment L<<557.0,429.0>--<556.0,429.0>>
-
-	* dagger (U+2020) contains a short segment L<<948.0,431.0>--<950.0,430.0>>
-
-	* colonmonetary (U+20A1) contains a short segment L<<1076.0,1327.0>--<1080.0,1327.0>>
-
-	* colonmonetary (U+20A1) contains a short segment L<<1080.0,0.0>--<1076.0,0.0>>
-
-	* uni20B9 (U+20B9) contains a short segment L<<490.0,298.0>--<486.0,298.0>> 
-
-	* And fl (U+FB02) contains a short segment L<<1455.0,1202.0>--<1453.0,1202.0>> [code: found-short-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have colinear vectors:
-
-	* ampersand (U+0026): L<<1066.0,0.0>--<286.0,904.0>> -> L<<286.0,904.0>--<285.0,905.0>> 
-
-	* And uni20B9 (U+20B9): L<<490.0,298.0>--<486.0,298.0>> -> L<<486.0,298.0>--<320.0,298.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
 
@@ -144,25 +118,25 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* IJ (U+0132): L<<117.0,0.0>--<119.0,265.0>>
 
-	* Oslash (U+00D8): L<<715.0,264.0>--<927.0,265.0>>
-
-	* Oslashacute (U+01FE): L<<715.0,264.0>--<927.0,265.0>>
-
 	* Sigma (U+03A3): L<<118.0,0.0>--<117.0,225.0>>
-
-	* at (U+0040): L<<1043.0,178.0>--<1359.0,177.0>>
 
 	* colonmonetary (U+20A1): L<<1076.0,0.0>--<1077.0,-179.0>>
 
 	* colonmonetary (U+20A1): L<<777.0,0.0>--<778.0,-179.0>>
 
-	* eth (U+00F0): L<<1245.0,966.0>--<1248.0,265.0>>
+	* fl (U+FB02): L<<1455.0,1467.0>--<1453.0,265.0>>
 
-	* lira (U+20A4): L<<230.0,265.0>--<407.0,264.0>>
+	* section (U+00A7): L<<956.0,896.0>--<370.0,897.0>>
 
-	* lira (U+20A4): L<<917.0,265.0>--<1513.0,264.0>> 
+	* sterling (U+00A3): L<<230.0,265.0>--<407.0,264.0>>
 
-	* And 12 more.
+	* sterling (U+00A3): L<<917.0,265.0>--<1513.0,264.0>>
+
+	* summation (U+2211): L<<118.0,-173.0>--<117.0,52.0>>
+
+	* uni20AA (U+20AA): L<<117.0,1486.0>--<1008.0,1487.0>> 
+
+	* And 7 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details>
@@ -170,8 +144,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-semi-ve
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 12 | 112 | 7 | 104 | 0 |
-| 0% | 0% | 5% | 48% | 3% | 44% | 0% |
+| 0 | 0 | 10 | 112 | 7 | 106 | 0 |
+| 0% | 0% | 4% | 48% | 3% | 45% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
