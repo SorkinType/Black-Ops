@@ -10,16 +10,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
+	* lslash
 	* eogonek
-	* Ebreve
-	* Gdotaccent
-	* Aogonek
-	* imacron
+	* uni1E61
+	* uni1E41
+	* dcaron
 	* Uogonek
-	* Aring
-	* bracketright
-	* Zdotaccent
-	* omacron and 47 more.
+	* uni1E0B
+	* amacron
+	* Aogonek
+	* uni00AD and 47 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Are there caret positions declared for every ligature? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/ligature_carets">com.google.fonts/check/ligature_carets</a>)</summary><div>
