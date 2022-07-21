@@ -5,10 +5,7 @@
 # Names should be added to this file as:
 # Name or Organization <email address>
 
-N: James Grieshaber
-E: james@typeco.com
-
-N: Eben Sorkin
-E: sorkineben@gmail.com
+James Grieshaber <james@typeco.com>
+Eben Sorkin <sorkineben@gmail.com>
 
 
