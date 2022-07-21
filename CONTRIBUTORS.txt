@@ -12,6 +12,5 @@
 N: James Grieshaber
 E: james@typeco.com
 
-
 N: Eben Sorkin
 E: sorkineben@gmail.com

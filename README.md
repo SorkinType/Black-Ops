@@ -53,8 +53,6 @@ Changelog example:
 - SIGNIFICANT Many new langauges are supported.
 - SIGNIFICANT Many new Symbols are present.
 
-kerning to be added
-
 ## License
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
