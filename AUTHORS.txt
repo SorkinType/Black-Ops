@@ -6,10 +6,4 @@
 # Name or Organization <email address>
 
 James Grieshaber <james@typeco.com>
-<<<<<<< HEAD
 Eben Sorkin <sorkineben@gmail.com>
-=======
-Eben Sorkin <sorkineben@gmail.com>
-
-
->>>>>>> 26389f6b66a999236d041c8e3d6000ac2dbbd5df
