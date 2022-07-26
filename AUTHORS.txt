@@ -7,5 +7,3 @@
 
 James Grieshaber <james@typeco.com>
 Eben Sorkin <sorkineben@gmail.com>
-
-
